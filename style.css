@@ -1,0 +1,118 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url('seoul.png'); 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover;
+  font-family: sans-serif; 
+}
+
+body {
+  margin: 2ch;
+}
+
+#new-task-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#add{
+  background: #FDD475; 
+  border-radius: 3em; 
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 2em;
+  margin-left: 0.5em; 
+  outline: none;
+  border: none;
+}
+
+
+#input {
+  width: min(100ch, 80vw);
+  height: 5ch; 
+  font-size: 20px; 
+  resize: none;
+}
+
+#head1, #head2 {
+  background: black;
+  color: white;
+  opacity: 0.75;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+  border-radius: 1em;
+  width: fit-content;
+  font-family: 'Courier New';
+}
+
+#head2{
+  user-select: none;
+}
+
+#toDo div {
+  background: #A1D6E2;
+}
+
+#completed button::before{
+  content: '✓';
+
+}
+
+#rotate {
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.hi > #rotate{
+  transform: rotate(90deg);
+}
+
+#completed div{
+  background: #BCBABE;
+}
+
+#toDo button, #completed button {
+  margin: 1em;
+  width: 4ch;
+  height: 4ch;
+  min-width: 4ch;
+  min-height: 4ch;
+  border-radius: 2ch; 
+   
+
+}
+
+#toDo > div,  #completed > div{
+  display: flex; 
+  align-items: center; 
+  border-radius: 0.5em; 
+  padding: 0.5em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; 
+  
+}
+#completed button {
+   background: #FFCCAC;
+}
+
+#toDo span, #completed span{
+  min-width: 0;
+  font-size: 20px; 
+  overflow-wrap: break-word; 
+  word-wrap: break-word; 
+  display: block; 
+}
+
+#completed span{
+  text-decoration: line-through;
+}
+.hide{
+  display: none; 
+}
+
