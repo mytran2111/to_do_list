@@ -6,4 +6,4 @@ area again.
 
 <img alt="To-Do App" src="to_do.PNG" style="height: 50vh; display: block; margin: 1em auto;">
 
-For this website, I only use html, JavaScript and CSS for the 2D design. You can try it out [here](https://todo.mytran2111.repl.co/)
+For this website, I only use html, JavaScript and CSS for the 2D design. You can try it out [here](https://mytran2111.github.io/to_do_list/)
